@@ -1,18 +1,20 @@
 :root { --accent: #8b0000; --bg: #000; --panel: #111; }
 
-/* Allow natural scrolling so nothing is permanently hidden */
+/* Changed to allow natural scrolling */
 body { 
     background-color: var(--bg); 
     color: #fff; 
     margin: 0; 
     padding: 0;
     font-family: -apple-system, sans-serif; 
-    overflow-y: auto; 
+    overflow-y: auto; /* Enables vertical scrolling */
+    -webkit-overflow-scrolling: touch; /* Makes scrolling smooth on iPad */
 }
 
 .main-container { 
     width: 100%;
-    display: block; /* Standard block stacking */
+    display: block; 
+    padding-bottom: 50px; /* Extra space at the bottom for comfortable scrolling */
 }
 
 .top-nav { 
@@ -34,7 +36,6 @@ body {
     margin-bottom: 10px;
 }
 
-/* This container now sits ABOVE the video */
 .player-controls { 
     margin-bottom: 10px;
 }
@@ -43,9 +44,9 @@ select, button {
     background: #222; 
     color: white; 
     border: 1px solid #444; 
-    padding: 10px; 
+    padding: 12px; 
     border-radius: 5px; 
-    font-size: 14px; 
+    font-size: 16px; 
     margin: 4px;
 }
 
@@ -72,8 +73,10 @@ iframe { position: absolute; width: 100%; height: 100%; border: none; top: 0; le
     font-weight: bold;
     border: none;
     cursor: pointer;
+    border-radius: 8px;
 }
 
+/* Search results won't push the page down; they float over it */
 .results-box { 
     position: absolute; 
     left: 50%;
@@ -83,4 +86,8 @@ iframe { position: absolute; width: 100%; height: 100%; border: none; top: 0; le
     max-width: 500px; 
     z-index: 1000; 
     border: 1px solid #333; 
+    max-height: 300px;
+    overflow-y: auto;
 }
+
+.search-item { padding: 15px; border-bottom: 1px solid #222; text-align: left; }
