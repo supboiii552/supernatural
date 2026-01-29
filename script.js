@@ -16,6 +16,8 @@ const episodesData = {
   "15": [{"ep": 1, "title": "Back and to the Future"}, {"ep": 2, "title": "Raising Hell"}, {"ep": 3, "title": "The Rupture"}, {"ep": 4, "title": "Atomic Monsters"}, {"ep": 5, "title": "Proverbs 17:3"}, {"ep": 6, "title": "Golden Time"}, {"ep": 7, "title": "Last Call"}, {"ep": 8, "title": "Our Father, Who Aren't in Heaven"}, {"ep": 9, "title": "The Trap"}, {"ep": 10, "title": "The Heroes' Journey"}, {"ep": 11, "title": "The Gamblers"}, {"ep": 12, "title": "Galaxy Brain"}, {"ep": 13, "title": "Destiny's Child"}, {"ep": 14, "title": "Last Holiday"}, {"ep": 15, "title": "Gimme Shelter"}, {"ep": 16, "title": "Drag Me Away (From You)"}, {"ep": 17, "title": "Unity"}, {"ep": 18, "title": "Despair"}, {"ep": 19, "title": "Inherit the Earth"}, {"ep": 20, "title": "Carry On"}]
 };
 
+// Paste your episodesData = { ... } here
+
 const sSelect = document.getElementById('seasonSelect');
 const eSelect = document.getElementById('episodeSelect');
 const vContainer = document.getElementById('videoContainer');
