@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="main-container">
         <div class="top-nav">
-            <input type="text" id="epSearch" placeholder="Search episode...">
+            <input type="text" id="epSearch" placeholder="Search episode name...">
             <div id="searchResults" class="results-box"></div>
         </div>
 
@@ -19,11 +20,17 @@
         </div>
 
         <div class="player-controls">
-            <select id="seasonSelect"><option value="">Season</option></select>
-            <select id="episodeSelect" disabled><option value="">Episode</option></select>
-            <button id="fullscreenBtn">⛶ FULLSCREEN</button> <button id="nextBtn">NEXT →</button>
+            <select id="seasonSelect">
+                <option value="">Season</option>
+            </select>
+            <select id="episodeSelect" disabled>
+                <option value="">Episode</option>
+            </select>
+            <button id="fullscreenBtn">⛶ FULLSCREEN</button>
+            <button id="nextBtn">NEXT →</button>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
