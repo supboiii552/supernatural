@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Supernatural Archive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="top-nav">
+            <input type="text" id="epSearch" placeholder="Search episode...">
+            <div id="searchResults" class="results-box"></div>
+        </div>
+
+        <div id="videoWrapper">
+            <div id="videoContainer">
+                </div>
+        </div>
+
+        <div class="player-controls">
+            <select id="seasonSelect"><option value="">Season</option></select>
+            <select id="episodeSelect" disabled><option value="">Episode</option></select>
+            <button id="fullscreenBtn">⛶ FULLSCREEN</button> <button id="nextBtn">NEXT →</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
