@@ -13,3 +13,5 @@ except take out 1622 and replace it with a show ID from this website: https://ww
 if you want to add a movie or an anime look at VidLink.pro's docs and change the iframe code.
 
 it is really janky at the moment so youhave to include all the episodes you want in the first part of the script.js file and keep the formatting exactly the same but with different episodes, otherwise the dropdown menu wont work.
+
+i would advise against doing these steps, as it would probably be faster and more effective to make a new website with cleaner code and that is easier to customize
