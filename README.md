@@ -1,5 +1,6 @@
-**!DEPRECIATED! !DEPRECIATED! !DEPRECIATED! !DEPRECIATED! !DEPRECIATED! !DEPRECIATED! !DEPRECIATED! !DEPRECIATED! !DEPRECIATED! 
-REPLACED BY VELOXIS PLAYER**
+**!DEPRECIATED! !DEPRECIATED! !DEPRECIATED! !DEPRECIATED! !DEPRECIATED! !DEPRECIATED! !DEPRECIATED! !DEPRECIATED!**
+
+**REPLACED BY VELOXIS PLAYER**
 
 this is a site that was the catalyst to making Veloxis, and it is only meant to stream supernatural, where as Veloxis can stream almost any show seamlessly.
 
